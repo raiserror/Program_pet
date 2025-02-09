@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Lost URL",
+  "version": "1.0",
+  "description": "Redirects to another page if the URL contains specific words.",
+  "permissions": ["storage", "tabs", "webNavigation"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon16.png",
+      "128": "icons/icon16.png"
+    }
+  },
+  "options_page": "options.html"
+}
