@@ -1,0 +1,1 @@
+Go to _chrome://extensions/_ click _Load unpacked extension_ (upper left corner). Finally go to the folder and load.
